@@ -137,3 +137,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# local use
+inputs/local
+
+# Locally downloaded models
+gfpgan/weights/*
+!gfpgan/weights/README.md
+
+# Local Code Review Ignore Format
+.flake8
